@@ -27,26 +27,26 @@ function Main(props) {
             </section>
 
             <PopupWithForm name='popup_avatar' title='Обновить аватар' text='Сохранить' isOpen={props.isAvatar} isClose={props.onClose}>
-                <input id='input__name' type="url" className="popup__input popup__input_name" name="name" value=""
+                <input id='input__name' type="url" className="popup__input popup__input_name" name="name" defaultValue=""
                     minLength="2" maxLength="200" required />
                 <span id='input__name-error' className="popup__error"></span>
             </PopupWithForm>
 
             <PopupWithForm name='popup_profile' title='Редактировать профиль' text='Сохранить' isOpen={props.isProfile} isClose={props.onClose}>
-                <input id='input__name' type="text" className="popup__input popup__input_name" name="name" value=""
+                <input id='input__name' type="text" className="popup__input popup__input_name" name="name" defaultValue=""
                     minLength="2" maxLength="40" required />
                 <span id='input__name-error' className="popup__error"></span>
                 <input id='input__description' type="text" className="popup__input popup__input_description"
-                    name="about" value="" minLength="2" maxLength="200" required />
+                    name="about" defaultValue="" minLength="2" maxLength="200" required />
                 <span id='input__description-error' className="popup__error"></span>
             </PopupWithForm>
 
             <PopupWithForm name='popup_card' title='Новое место' text='Сохранить' isOpen={props.isPlace} isClose={props.onClose}>
             <input id='input__cardname' type="text" className="popup__input popup__input_name popup__input_cardname"
-                name="name" value="" placeholder='Название' required minLength="2" maxLength="40" />
+                name="name" defaultValue="" placeholder='Название' required minLength="2" maxLength="40" />
               <span id='input__cardname-error' className="popup__error"></span>
               <input id='input__link' type="url" className="popup__input popup__input_description popup__input_link"
-                name="link" value="" placeholder="Ссылка на картинку" required />
+                name="link" defaultValue="" placeholder="Ссылка на картинку" required />
               <span id='input__link-error' className="popup__error"></span>
             </PopupWithForm>
 
