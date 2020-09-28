@@ -1,3 +1,7 @@
+Я не понимаю этой ошибки, какая еще директория? Куда нужно все положить? Для чего? Ни в тз, ни по чек листу не могу понять, что от меня хотят.  
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
