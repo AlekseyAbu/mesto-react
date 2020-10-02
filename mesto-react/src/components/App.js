@@ -75,8 +75,6 @@ function App() {
     });
   }
 
-  // const [dataProfile, setDataProfile] = React.useState([]);
-
   function handleCardDelete(id) {
     api.deletInitialCards(id).then(() => {
       console.log(id)
